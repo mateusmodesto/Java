@@ -352,10 +352,9 @@ public class calculadora extends javax.swing.JFrame {
        digito = "";
     }//GEN-LAST:event_btnigualActionPerformed
 
-    /*
     private void btnigual1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnigual1ActionPerformed
     }//GEN-LAST:event_btnigual1ActionPerformed
-    */
+
     private void btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn1ActionPerformed
         //botão número 1
         if (numeros == 0){ // a variavel numeros é usada para verificar se nenhum número foi apertado, deste modo:
