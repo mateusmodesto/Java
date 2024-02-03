@@ -47,9 +47,9 @@ public class Tela1 extends javax.swing.JFrame {
 
         jLabel2.setText("Digite seu peso:");
 
-        IMClabel.setText("O seu IMC é");
+        IMClabel.setText("      ");
 
-        posicao.setText("Você está");
+        posicao.setText("     ");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -68,7 +68,8 @@ public class Tela1 extends javax.swing.JFrame {
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jLabel1)
                                 .addGap(18, 18, 18)
-                                .addComponent(txtAltura, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addComponent(txtAltura, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(btnCalcular))
                         .addGap(187, 187, 187))
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jLabel3)
@@ -77,10 +78,6 @@ public class Tela1 extends javax.swing.JFrame {
                             .addComponent(posicao)
                             .addComponent(IMClabel))
                         .addGap(0, 0, Short.MAX_VALUE))))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(btnCalcular)
-                .addGap(158, 158, 158))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -99,9 +96,9 @@ public class Tela1 extends javax.swing.JFrame {
                     .addComponent(IMClabel))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(posicao)
-                .addGap(7, 7, 7)
+                .addGap(28, 28, 28)
                 .addComponent(btnCalcular)
-                .addContainerGap(116, Short.MAX_VALUE))
+                .addContainerGap(26, Short.MAX_VALUE))
         );
 
         pack();
